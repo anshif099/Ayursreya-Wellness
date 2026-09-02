@@ -6,3 +6,6 @@ _DataURI/
 wasm---wasm/
 .DS_Store
 Thumbs.db
+
+.vercel
+.env*

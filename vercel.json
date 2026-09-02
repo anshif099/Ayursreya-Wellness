@@ -6,7 +6,7 @@
   "outputDirectory": "www.ojastheeram.com",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
+  "redirects": [
     {
       "source": "/:path*",
       "has": [
@@ -15,7 +15,8 @@
           "key": "_rsc"
         }
       ],
-      "destination": "/api/rsc-redirect?path=:path*"
+      "destination": "/api/rsc-redirect?path=:path*",
+      "permanent": false
     }
   ],
   "headers": [
