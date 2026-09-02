@@ -5,9 +5,9 @@
         subtitle: "Ayurveda Wellness Clinic",
         tagline: "Holistic Healing for Mind & Body",
         description: "Experience authentic Ayurvedic therapies rooted in Kerala tradition. We provide holistic healing solutions for modern lifestyle diseases and long-term wellness.",
-        phone: ["+91 93531 66850", "+91 95396 59405"],
-        whatsapp: "919353166850",
-        address: "R.N.R Apartments, Sri Kanteshwara Nagar, Bengaluru, India"
+        phone: ["+91 00000 00000", "+91 00000 00001"],
+        whatsapp: "910000000000",
+        address: "Demo Location, Bengaluru, Karnataka, India"
     }])
 }, 43432, e => {
     "use strict";
