@@ -1182,12 +1182,16 @@
                             },
                             className: "group rounded-2xl overflow-hidden bg-white/60 border border-[var(--brand-forest)]/6 hover:border-[var(--brand-forest)]/15 transition-all duration-500",
                             children: [(0, t.jsxs)("div", {
-                                className: "relative h-40 sm:h-48 md:h-56 overflow-hidden",
+                                className: "relative w-full overflow-hidden",
+                                style: {
+                                    aspectRatio: "1 / 1",
+                                    backgroundColor: "#ebe4da"
+                                },
                                 children: [(0, t.jsx)(i.default, {
                                     src: e.image,
                                     alt: e.title,
                                     fill: !0,
-                                    className: "object-cover group-hover:scale-105 transition-transform duration-700",
+                                    className: "object-contain object-center transition-transform duration-700",
                                     sizes: "(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw",
                                     loading: "lazy"
                                 }), (0, t.jsx)("div", {
